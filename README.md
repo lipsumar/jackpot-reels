@@ -1,4 +1,4 @@
-# 🎰 Jackpot reel
+# 🎰 Jackpot reels
 
 Demo: https://lipsumarium.com/jackpot-reels?reelsCount=3&reelA=4&reelB=4&reelC=3&combinations=1-2-3,2-2-2,3-3-3
 
@@ -22,6 +22,7 @@ Add parameters to the URL like so: `...index.html?param=value&param2=value2`
 | `combinations` | The combinations that will come out, separated by comas                  | 1-1-1   |
 | `duration`     | Time in second for the reels to spin                                     | 5       |
 | `groups`       | The "length" of the reel. How many time images in each reel are repeated | 4       |
+| `randomize`    | When set to `1`, the combinations will come out in a random order        | `0`     |
 
 ### Example
 

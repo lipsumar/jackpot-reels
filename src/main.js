@@ -12,6 +12,9 @@
   params.combinations = (params.combinations || "1-1-1")
     .split(",")
     .map((comb) => comb.split("-"));
+  if (params.randomize) {
+    params.combinations = shuffle(params.combinations);
+  }
   console.log(params);
 
   const reelsCount = parseInt(params.reelsCount, 10) || 3;
